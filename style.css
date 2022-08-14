@@ -14,6 +14,7 @@ body {
     border: dotted green;
     min-width: 200px;
     height: 100px;
+    padding: 20px;
     position: relative;
 }
 
@@ -25,6 +26,22 @@ body {
     transform: translateX(-50%);
 }
 
+/* numbers */
+.counter {
+    font-size: 40px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+/* string */
+.stats-container h4 {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
 
 
 /* changing layout when scren size <=600px */
