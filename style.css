@@ -14,7 +14,18 @@ body {
     border: dotted green;
     min-width: 200px;
     height: 100px;
+    position: relative;
 }
+
+.icon {
+    position: absolute;
+    /* making icon to center */
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 
 /* changing layout when scren size <=600px */
 @media (max-width:600px) {
