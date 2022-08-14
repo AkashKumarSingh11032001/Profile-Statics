@@ -1,0 +1,1 @@
+const countersEl = document.querySelectorAll(".counter")
